@@ -13,14 +13,24 @@ import java.util.List;
 @Table
 @Data
 public class StopEntity extends BaseEntity {
-    @OneToOne
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "city_id")
     private CityEntity city;
+
     @Column
     private Date arrivalDate;
+
     @Column
     private Date departureDate;
-    @OneToOne
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "hotel_id")
     private HotelEntity hotel;
-    @OneToMany
+
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "stopList")
     private List<ActivityEntity> activityList;
+
+    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "stopList")
+    private List<TourEntity> tourList;
 }

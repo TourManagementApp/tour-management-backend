@@ -1,4 +1,4 @@
-package com.allianz.tourmanagement.model;
+package com.allianz.tourmanagement.model.requestDTO;
 
 import com.allianz.tourmanagement.model.enums.PersonTypeEnum;
 import com.allianz.tourmanagement.util.BaseDTO;
@@ -7,7 +7,7 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class PersonDTO extends BaseDTO {
+public class PersonRequestDTO extends BaseDTO {
 
     private String name;
     private String surname;

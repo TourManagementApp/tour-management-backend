@@ -1,4 +1,4 @@
-package com.allianz.tourmanagement.model;
+package com.allianz.tourmanagement.model.requestDTO;
 
 import com.allianz.tourmanagement.model.enums.OrderStatusEnum;
 import com.allianz.tourmanagement.util.BaseDTO;
@@ -10,12 +10,12 @@ import java.util.Set;
 
 
 @Data
-public class OrderDTO extends BaseDTO {
+public class OrderRequestDTO extends BaseDTO {
 
-    private UserDTO user;
+    private UserRequestDTO user;
     private OrderStatusEnum orderStatus;
-    private TourDTO tour;
-    private Set<PersonDTO> personList;
+    private TourRequestDTO tour;
+    private Set<PersonRequestDTO> personList;
     private BigDecimal totalPrice;
 
 }

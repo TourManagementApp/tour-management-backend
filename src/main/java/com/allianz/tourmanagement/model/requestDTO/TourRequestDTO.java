@@ -1,4 +1,4 @@
-package com.allianz.tourmanagement.model;
+package com.allianz.tourmanagement.model.requestDTO;
 
 import com.allianz.tourmanagement.model.enums.TourSeasonEnum;
 import com.allianz.tourmanagement.model.enums.TourTypeEnum;
@@ -10,18 +10,18 @@ import java.util.Date;
 import java.util.List;
 
 @Data
-public class TourDTO extends BaseDTO {
+public class TourRequestDTO extends BaseDTO {
 
-private CityDTO departingCity;
-private CityDTO arrivingCity;
-private CityDTO returningCity;
+private CityRequestDTO departingCity;
+private CityRequestDTO arrivingCity;
+private CityRequestDTO returningCity;
 private Date startDate;
 private Date endDate;
 private BigDecimal price;
 private int capacity;
 private TourSeasonEnum tourSeason;
 private TourTypeEnum tourType;
-private List<StopDTO> stopList;
+private List<StopRequestDTO> stopList;
 
 
 }
