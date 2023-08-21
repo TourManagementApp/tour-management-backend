@@ -1,0 +1,65 @@
+[33mcommit 7c8913a08711ebce56fe714081676108811cb891[m[33m ([m[1;36mHEAD -> [m[1;32mdevelop[m[33m, [m[1;31morigin/develop[m[33m)[m
+Author: Hava Isr <hava.isrplv@gmail.com>
+Date:   Mon Aug 21 15:30:05 2023 +0300
+
+    DTO'lar guncellendi.
+
+[33mcommit 81deaad1064930f703d7049fd87b238e7ca7f075[m
+Author: Hava Isr <hava.isrplv@gmail.com>
+Date:   Mon Aug 21 14:36:53 2023 +0300
+
+    ChildEntity and AdultEntity deleted.
+
+[33mcommit d217a36fed99d401e4ea8dc359f3303ad6372260[m
+Author: Melike Yetişer <melike.yetiser@gmail.com>
+Date:   Mon Aug 21 14:18:23 2023 +0300
+
+    add dependency
+
+[33mcommit 104ede70f560edfcb3da3ae19e2e8ca95c90effc[m
+Author: Melike Yetişer <melike.yetiser@gmail.com>
+Date:   Mon Aug 21 14:09:53 2023 +0300
+
+    create basemapper using mapstruct
+
+[33mcommit a0097a5bea61ac5f52c9e0d3d98808a365065fc3[m
+Merge: 21c5aa7 6719fa1
+Author: Hava Isr <hava.isrplv@gmail.com>
+Date:   Sun Aug 20 21:58:30 2023 +0300
+
+    Merge branch 'develop' of github.com:TourManagementApp/tour-management-backend into develop
+    
+    # Conflicts:
+    #       pom.xml
+    #       src/main/java/com/allianz/tourmanagement/database/repository/ItineraryRepository.java
+    #       src/main/resources/application-dev.properties
+
+[33mcommit 21c5aa71721ed2e1775388d663702a89276a16f4[m
+Author: Hava Isr <hava.isrplv@gmail.com>
+Date:   Sun Aug 20 19:47:36 2023 +0300
+
+    Entity ve DTO'lar duzenlendi
+
+[33mcommit 6719fa15f5b65143bf00867d5f922cb1425e914d[m
+Author: Gizot <tastangizem@gmail.com>
+Date:   Sun Aug 20 18:44:28 2023 +0300
+
+    adult and child repository and entities done
+
+[33mcommit 08fefb364df0c52cd597d8c67b9acc78a06a1f11[m
+Author: Melike Yetişer <melike.yetiser@gmail.com>
+Date:   Sun Aug 20 18:31:51 2023 +0300
+
+    minor corrections in repositories
+
+[33mcommit baf6a1b49fdcdf3fcd06bd284b65aa24bf19fd16[m
+Author: Gizot <tastangizem@gmail.com>
+Date:   Fri Aug 18 18:13:44 2023 +0300
+
+    entity and repository done
+
+[33mcommit 98b4191424c28871aed865567a3076f116539958[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Hava Isr <hava.isrplv@gmail.com>
+Date:   Fri Aug 18 15:10:17 2023 +0300
+
+    Initial Commit
