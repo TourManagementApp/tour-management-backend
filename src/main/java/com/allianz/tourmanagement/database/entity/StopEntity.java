@@ -28,7 +28,7 @@ public class StopEntity extends BaseEntity {
     @JoinColumn(name = "hotel_id")
     private HotelEntity hotel;
 
-    @ManyToMany(fetch = FetchType.LAZY, mappedBy = "stopList")
+    @ManyToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "stopList")
     private List<ActivityEntity> activityList;
 
     @ManyToMany(fetch = FetchType.LAZY, mappedBy = "stopList")

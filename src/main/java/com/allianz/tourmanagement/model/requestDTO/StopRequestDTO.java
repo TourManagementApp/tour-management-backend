@@ -1,5 +1,6 @@
 package com.allianz.tourmanagement.model.requestDTO;
 
+import com.allianz.tourmanagement.database.entity.TourEntity;
 import com.allianz.tourmanagement.util.BaseDTO;
 import lombok.Data;
 
@@ -14,5 +15,6 @@ public class StopRequestDTO extends BaseDTO {
     private Date departureDate;
     private HotelRequestDTO hotel;
     private List<ActivityRequestDTO> activityList;
+    private List<TourEntity> tourList;
 
 }

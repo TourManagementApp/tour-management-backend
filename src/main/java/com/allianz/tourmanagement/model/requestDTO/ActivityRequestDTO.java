@@ -8,6 +8,8 @@ import java.util.List;
 
 @Data
 public class ActivityRequestDTO extends BaseDTO {
+
     private String name;
     private List<ActivityTypeEnum> activityTypeList;
+
 }

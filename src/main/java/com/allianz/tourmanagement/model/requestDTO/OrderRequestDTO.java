@@ -1,5 +1,6 @@
 package com.allianz.tourmanagement.model.requestDTO;
 
+import com.allianz.tourmanagement.database.entity.InvoiceEntity;
 import com.allianz.tourmanagement.model.enums.OrderStatusEnum;
 import com.allianz.tourmanagement.util.BaseDTO;
 import lombok.Data;
@@ -17,5 +18,6 @@ public class OrderRequestDTO extends BaseDTO {
     private TourRequestDTO tour;
     private Set<PersonRequestDTO> personList;
     private BigDecimal totalPrice;
+    private InvoiceEntity invoice;
 
 }

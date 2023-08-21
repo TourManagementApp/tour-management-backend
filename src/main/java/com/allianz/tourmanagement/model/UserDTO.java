@@ -1,9 +1,11 @@
 package com.allianz.tourmanagement.model;
 
+import com.allianz.tourmanagement.database.entity.OrderEntity;
 import com.allianz.tourmanagement.util.BaseDTO;
 import lombok.*;
 
 import java.util.Date;
+import java.util.List;
 
 @Getter
 @Setter
@@ -18,5 +20,6 @@ public class UserDTO extends BaseDTO {
     private Date birthDate;
     private String cardNo;
     private CountryDTO country;
+    private List<OrderEntity> orderHistory;
 
 }
