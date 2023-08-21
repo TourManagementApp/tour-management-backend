@@ -24,4 +24,5 @@ public class ActivityEntity extends BaseEntity {
 
     @Enumerated(EnumType.STRING)
     private List<ActivityTypeEnum> activityTypeList;
+
 }

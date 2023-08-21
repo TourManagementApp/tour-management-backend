@@ -22,4 +22,5 @@ public class CityEntity extends BaseEntity {
 
     @OneToMany(mappedBy = "city", fetch = FetchType.LAZY, cascade = CascadeType.ALL, orphanRemoval = true)
     private List<HotelEntity> hotelList;
+
 }

@@ -15,4 +15,5 @@ public class HotelEntity extends BaseEntity {
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "city_id")
     private CityEntity city;
+
 }

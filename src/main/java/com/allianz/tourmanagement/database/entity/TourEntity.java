@@ -56,4 +56,5 @@ public class TourEntity extends BaseEntity {
 
     @OneToMany(mappedBy = "tour", fetch = FetchType.LAZY)
     private List<OrderEntity> orderList;
+
 }

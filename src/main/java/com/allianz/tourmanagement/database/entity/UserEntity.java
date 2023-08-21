@@ -37,4 +37,5 @@ public class UserEntity extends BaseEntity {
 
     @OneToMany(mappedBy = "user", fetch = FetchType.LAZY)
     private List<OrderEntity> orderHistory;
+
 }

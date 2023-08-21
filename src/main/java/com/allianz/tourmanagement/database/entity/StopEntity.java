@@ -33,4 +33,5 @@ public class StopEntity extends BaseEntity {
 
     @ManyToMany(fetch = FetchType.LAZY, mappedBy = "stopList")
     private List<TourEntity> tourList;
+
 }
