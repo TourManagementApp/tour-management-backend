@@ -30,11 +30,11 @@ public class BaseEntity {
 
     @LastModifiedDate
     private Date updatedDate;
-/*
+
     @PrePersist
     protected void onCreate() {
         setUuid(UUID.randomUUID());
     }
 
- */
+
 }

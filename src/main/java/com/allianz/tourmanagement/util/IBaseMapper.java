@@ -1,7 +1,9 @@
 package com.allianz.tourmanagement.util;
 
+import com.allianz.tourmanagement.model.PageDTO;
 import com.allianz.tourmanagement.util.dbutil.BaseEntity;
 import jakarta.persistence.MappedSuperclass;
+import org.springframework.data.domain.Page;
 
 import java.util.List;
 
@@ -25,6 +27,6 @@ public interface IBaseMapper<Entity extends BaseEntity,
 
     List<DTO> entityListToDtoList(List<Entity> entityList);
 
-    Entity requestDtoToExistEntity(Entity entity, RequestDTO requestDTO);
+    PageDTO<DTO> pageEntityToPageDTO(Page<Entity> entityPage);
 
 }
