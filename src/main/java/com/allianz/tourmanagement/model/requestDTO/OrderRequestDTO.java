@@ -3,6 +3,7 @@ package com.allianz.tourmanagement.model.requestDTO;
 import com.allianz.tourmanagement.database.entity.InvoiceEntity;
 import com.allianz.tourmanagement.model.enums.OrderStatusEnum;
 import com.allianz.tourmanagement.util.BaseDTO;
+import com.allianz.tourmanagement.util.BaseRequestDTO;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -11,7 +12,7 @@ import java.util.Set;
 
 
 @Data
-public class OrderRequestDTO extends BaseDTO {
+public class OrderRequestDTO extends BaseRequestDTO {
 
     private UserRequestDTO user;
     private OrderStatusEnum orderStatus;

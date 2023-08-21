@@ -14,7 +14,7 @@ import java.util.UUID;
 public abstract class BaseController<
         Entity extends BaseEntity,
         DTO extends BaseDTO,
-        RequestDto extends BaseDTO,
+        RequestDto extends BaseRequestDTO,
         Mapper extends IBaseMapper<Entity, DTO, RequestDto>,
         Repository extends IBaseRepository<Entity>,
         Service extends BaseService<Entity, DTO, RequestDto, Mapper, Repository>> {

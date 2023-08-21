@@ -4,6 +4,7 @@ import com.allianz.tourmanagement.database.entity.OrderEntity;
 import com.allianz.tourmanagement.model.enums.TourSeasonEnum;
 import com.allianz.tourmanagement.model.enums.TourTypeEnum;
 import com.allianz.tourmanagement.util.BaseDTO;
+import com.allianz.tourmanagement.util.BaseRequestDTO;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -11,7 +12,7 @@ import java.util.Date;
 import java.util.List;
 
 @Data
-public class TourRequestDTO extends BaseDTO {
+public class TourRequestDTO extends BaseRequestDTO {
 
 private CityRequestDTO departingCity;
 private CityRequestDTO arrivingCity;
