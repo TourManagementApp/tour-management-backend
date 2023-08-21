@@ -1,11 +1,15 @@
 package com.allianz.tourmanagement.model;
 
 import com.allianz.tourmanagement.util.BaseDTO;
-import lombok.Data;
+import lombok.*;
 
 import java.util.Date;
 
-@Data
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserDTO extends BaseDTO {
 
     private String name;

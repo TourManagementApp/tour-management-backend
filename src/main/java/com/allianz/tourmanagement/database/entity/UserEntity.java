@@ -2,14 +2,18 @@ package com.allianz.tourmanagement.database.entity;
 
 import com.allianz.tourmanagement.util.dbutil.BaseEntity;
 import jakarta.persistence.*;
-import lombok.Data;
+import lombok.*;
 
 import java.util.Date;
 import java.util.List;
 
 @Entity
 @Table(name="users")
-@Data
+@Getter
+@Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class UserEntity extends BaseEntity {
 
     @Column
