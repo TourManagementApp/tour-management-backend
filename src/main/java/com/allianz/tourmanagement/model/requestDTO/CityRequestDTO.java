@@ -8,6 +8,6 @@ import lombok.Data;
 public class CityRequestDTO extends BaseRequestDTO {
 
     private String name;
-    private CountryRequestDTO country;
+//    private CountryRequestDTO country;
 
 }

@@ -22,6 +22,6 @@ public class CityController extends BaseController <CityEntity,
     CityService cityService;
     @Override
     protected CityService getService() {
-        return null;
+        return cityService;
     }
 }

@@ -21,11 +21,11 @@ public class CityService extends BaseService<CityEntity,
    CityRepository cityRepository;
     @Override
     protected CityMapper getMapper() {
-        return null;
+        return cityMapper;
     }
 
     @Override
     protected CityRepository getRepository() {
-        return null;
+        return cityRepository;
     }
 }

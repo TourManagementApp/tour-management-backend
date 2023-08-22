@@ -17,7 +17,7 @@ public class UserRequestDTO extends BaseRequestDTO {
     private Date birthDate;
     private String cardNo;
     private CountryRequestDTO country;
-    private List<OrderEntity> orderHistory;
+//    private List<OrderRequestDTO> orderHistory;
 
 
 }

@@ -24,7 +24,7 @@ public class CountryController extends BaseController<CountryEntity,
 
     @Override
     protected CountryService getService() {
-        return null;
+        return countryService;
     }
 }
 

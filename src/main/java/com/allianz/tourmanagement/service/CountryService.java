@@ -21,11 +21,11 @@ public class CountryService extends BaseService<CountryEntity,
     CountryRepository countryRepository;
     @Override
     protected CountryMapper getMapper() {
-        return null;
+        return countryMapper;
     }
 
     @Override
     protected CountryRepository getRepository() {
-        return null;
+        return countryRepository;
     }
 }
